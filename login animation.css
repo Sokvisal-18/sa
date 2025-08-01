@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'ubutun';
+    src: url(../Font/Ubuntu-Regular.ttf);
+}
+h1{
+    color: greenyellow;
+    font-size: 40px;
+}
+label{
+    font-family: 'ubutun';
+    font-size: 30px;
+}
+input{
+        font-size: 27px;
+        height: 56px;
+        width: 450px;
+        border-radius: 5px;
+        border: 1px solid;
+}
+input:focus {
+    outline: 0;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    transform: scale(1);
+}
+input[type="submit"]{
+    width: 150px;
+    background-color: blue;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: darkblue;
+    border-radius: 0;
+    transform: scale(1);
+}
+input[type="reset"]{
+    width: 150px;
+    background-color: red;
+    color: white;
+}
+input[type="reset"]:hover{
+    background-color: darkred  ;
+    border-radius: 0;
+    transform: scale(1);
+}
